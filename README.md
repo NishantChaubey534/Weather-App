@@ -23,20 +23,6 @@ A sleek and responsive weather application built with **React**, **Tailwind CSS*
 - **State Management:** React Hooks (`useState`, `useEffect`)
 - **API:** [OpenWeatherMap](https://openweathermap.org/api)
 
-## 📁 Project Structure
-my-weather-app/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── services/
-│   ├── index.css
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
 
 ## Screenshots
 ![](Screenshots/weather-1.png)
