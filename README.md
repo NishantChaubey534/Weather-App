@@ -23,6 +23,21 @@ A sleek and responsive weather application built with **React**, **Tailwind CSS*
 - **State Management:** React Hooks (`useState`, `useEffect`)
 - **API:** [OpenWeatherMap](https://openweathermap.org/api)
 
+## 📁 Project Structure
+my-weather-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── services/
+│   ├── index.css
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
 ## Screenshots
 ![](Screenshots/weather-1.png)
 ![](Screenshots/weather-2.png)
@@ -48,7 +63,6 @@ Font Awesome
 
 Tailwind CSS
 
-
 ## Add your API Key
 
 Replace the placeholder with your actual OpenWeatherMap API key in your service function.
@@ -62,6 +76,5 @@ const fetchCityWeather = async (city) => {
   );
   return await response.json();
 };
-
 
 
