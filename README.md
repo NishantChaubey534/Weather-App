@@ -24,10 +24,29 @@ A sleek and responsive weather application built with **React**, **Tailwind CSS*
 - **API:** [OpenWeatherMap](https://openweathermap.org/api)
 
 ## Screenshots
-![](https://example.com/path/to/weather-app-screenshot.png)
-![](https://example.com/path/to/weather-app-screenshot.png)
-![](https://example.com/path/to/weather-app-screenshot.png)
-![](https://example.com/path/to/weather-app-screenshot.png)
+![](Screenshots/weather-1.png)
+![](Screenshots/weather-2.png)
+![](Screenshots/weather-3.png)
+![](Screenshots/weather-4.png)
+
+
+## 📦 Dependencies
+react, react-dom
+
+@fortawesome/react-fontawesome
+
+@fortawesome/free-solid-svg-icons
+
+@heroicons/react
+
+## 🙌 Acknowledgements
+OpenWeatherMap API
+
+Heroicon
+
+Font Awesome
+
+Tailwind CSS
 
 
 ## Add your API Key
@@ -46,23 +65,3 @@ const fetchCityWeather = async (city) => {
 
 
 
-
-📦 Dependencies
-react, react-dom
-
-@fortawesome/react-fontawesome
-
-@fortawesome/free-solid-svg-icons
-
-@heroicons/react
-
-tailwindcss, postcss, autoprefixer
-
-# 🙌 Acknowledgements
-OpenWeatherMap API
-
-Heroicons
-
-Font Awesome
-
-Tailwind CSS
