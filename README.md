@@ -23,27 +23,24 @@ A sleek and responsive weather application built with **React**, **Tailwind CSS*
 - **State Management:** React Hooks (`useState`, `useEffect`)
 - **API:** [OpenWeatherMap](https://openweathermap.org/api)
 
----
-
-## 📁 Project Structure
-
-src/ │ ├── components/ │ ├── App.jsx # Root app component │ ├── SearchBar.jsx # City search input │ ├── WeatherCard.jsx # Current weather display │ ├── Forecast.jsx # 5-day forecast │ ├── RecentSearches.jsx # Buttons for recent city queries │ ├── ErrorMessage.jsx # Error display box │ ├── LoadingSpinner.jsx # Tailwind spinner │ └── ThemeToggle.jsx # Light/Dark mode switch │ ├── index.css # Tailwind setup & custom themes/animations └── main.jsx # React root entry point
-
-
----
 
 ## ⚙️ Getting Started
 
-### 1. Clone the repository
+ # 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/weather-dashboard.git
-cd weather-dashboard
+cd weather-dashboard ```
 
 
-# Add your API key
 
+## Add your API Key
+
+Replace the placeholder with your actual OpenWeatherMap API key in your service function.
+
+```js
 const API_KEY = 'your_api_key_here';
+
 const fetchCityWeather = async (city) => {
   const response = await fetch(
     `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${API_KEY}`
@@ -52,12 +49,9 @@ const fetchCityWeather = async (city) => {
 };
 
 
-# 📸 Screenshots
 
 
-
-
-# 📦 Dependencies
+#📦 Dependencies
 react, react-dom
 
 @fortawesome/react-fontawesome
@@ -68,8 +62,6 @@ react, react-dom
 
 tailwindcss, postcss, autoprefixer
 
-
-
 # 🙌 Acknowledgements
 OpenWeatherMap API
 
@@ -78,4 +70,3 @@ Heroicons
 Font Awesome
 
 Tailwind CSS
-
