@@ -23,15 +23,11 @@ A sleek and responsive weather application built with **React**, **Tailwind CSS*
 - **State Management:** React Hooks (`useState`, `useEffect`)
 - **API:** [OpenWeatherMap](https://openweathermap.org/api)
 
-
-## ⚙️ Getting Started
-
- # 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/weather-dashboard.git
-cd weather-dashboard ```
-
+## Screenshots
+![](https://example.com/path/to/weather-app-screenshot.png)
+![](https://example.com/path/to/weather-app-screenshot.png)
+![](https://example.com/path/to/weather-app-screenshot.png)
+![](https://example.com/path/to/weather-app-screenshot.png)
 
 
 ## Add your API Key
@@ -51,7 +47,7 @@ const fetchCityWeather = async (city) => {
 
 
 
-#📦 Dependencies
+📦 Dependencies
 react, react-dom
 
 @fortawesome/react-fontawesome
